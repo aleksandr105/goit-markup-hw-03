@@ -32,73 +32,85 @@
     </header>
     <main>
         <section class="hero">
-            <h1 class="main-headline">Эффективные решения для вашего бизнеса</h1>
+            <h1 class="main-headline">Эффективные решения<br> для вашего бизнеса</h1>
             <button type="button" class="button">Заказать услугу</button>
         </section>
         <section class="container">
             <ul class="list about-benefits">
-                <li>
+                <li class="list-advantage">
                     <h3 class="benefits">Внимание к деталям</h3>
                     <p class="benefits-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
-                <li>
+                <li class="list-advantage">
                     <h3 class="benefits">Пунктуальность</h3>
                     <p class="benefits-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                 </li>
-                <li>
+                <li class="list-advantage">
                     <h3 class="benefits">Планирование</h3>
                     <p class="benefits-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                 </li>
-                <li>
+                <li class="list-advantage">
                     <h3 class="benefits">Современные технологии</h3>
                     <p class="benefits-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
         </section>
-        <section>
+        <section class="container">
             <h2 class="main-title">Чем мы занимаемся</h2>
-            <ul class="list">
-                <li><img src="./img/box1.jpg" width="370" height="294" alt="фото как мы работаем"></li>
-                <li><img src="./img/box2.jpg" width="370" height="294" alt="фото как мы работаем"></li>
-                <li><img src="./img/box3.jpg" width="370" height="294" alt="фото как мы работаем"></li> 
+            <ul class="list presentation">
+                <li class="presentation-foto"><img src="./img/box1.jpg" width="370" height="294" alt="фото как мы работаем" class="indent-reset"></li>
+                <li class="presentation-foto"><img src="./img/box2.jpg" width="370" height="294" alt="фото как мы работаем" class="indent-reset"></li>
+                <li class="presentation-foto"><img src="./img/box3.jpg" width="370" height="294" alt="фото как мы работаем" class="indent-reset"></li> 
             </ul>
         </section>
         <section class="section-color">
-            <h2 class="main-title">Наша команда</h2>
-            <ul class="list">
-                <li>
-                    <img src="./img/img.jpg" width="270" height="260" alt="фото нашей команды">
-                    <h3 class="title-develeper">Игорь Демьяненко</h3>
-                    <p lang="en" class="title-position">Product Designer</p>
-                </li>
-                <li>
-                    <img src="./img/img(1).jpg" width="270" height="260" alt="фото нашей команды">
-                    <h3 class="title-develeper">Ольга Репина</h3>
-                    <p lang="en" class="title-position">Frontend Developer</p>
-                </li>
-                <li>
-                    <img src="./img/img(2).jpg" width="270" height="260" alt="фото нашей команды">
-                    <h3 class="title-develeper">Николай Тарасов</h3>
-                    <p lang="en" class="title-position">Marketing</p>
-                </li>
-                <li>
-                    <img src="./img/img(3).jpg" width="270" height="260" alt="фото нашей команды">
-                    <h3 class="title-develeper">Михаил Ермаков</h3>
-                    <p lang="en" class="title-position">UI Designer</p>
-                </li>
-            </ul>
+            <div class="container">
+                <h2 class="main-command">Наша команда</h2>
+                <ul class="list command-list">
+                    <li class="command-info">
+                        <img src="./img/img.jpg" width="270" height="260" alt="фото нашей команды">
+                        <div class="indent-reset-command">
+                            <h3 class="title-develeper">Игорь Демьяненко</h3>
+                            <p lang="en" class="title-position">Product Designer</p>
+                        </div>
+                    </li>
+                    <li class="command-info">
+                        <img src="./img/img(1).jpg" width="270" height="260" alt="фото нашей команды">
+                        <div class="indent-reset-command">
+                            <h3 class="title-develeper">Ольга Репина</h3>
+                            <p lang="en" class="title-position">Frontend Developer</p>
+                        </div>
+                    </li>
+                    <li class="command-info">
+                        <img src="./img/img(2).jpg" width="270" height="260" alt="фото нашей команды">
+                        <div class="indent-reset-command">
+                            <h3 class="title-develeper">Николай Тарасов</h3>
+                            <p lang="en" class="title-position">Marketing</p>
+                        </div>
+                    </li>
+                    <li class="command-info">
+                        <img src="./img/img(3).jpg" width="270" height="260" alt="фото нашей команды">
+                        <div class="indent-reset-command">
+                            <h3 class="title-develeper">Михаил Ермаков</h3>
+                            <p lang="en" class="title-position">UI Designer</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </section>
 
     </main>
     <footer class="footer-text">
-        <a lang="en" href="./index.html" class="footer-logo link"><span class="footer-logo-span">Web</span>Studio</a>
-        <address>
-            <ul class="list">
-               <li><a href="https://goo.gl/maps/7rWnGFxdc6P4AjHz5" target="_blank" rel="noopener noreferrer nofollow" class="link title-address">г. Киев, пр-т Леси Украинки, 26</a></li>   
-               <li><a href="mailto:info@devstudio.com" class="link text-address">info@devstudio.com</a></li>
-               <li><a href="tel:+380961111111" class="link text-address">+38 096 111 11 11</a></li>
-            </ul>
-        </address>
+        <div class="container"> 
+               <a lang="en" href="./index.html" class="footer-logo link"><span class="footer-logo-span">Web</span>Studio</a>
+            <address>
+                <ul class="list">
+                <li><a href="https://goo.gl/maps/7rWnGFxdc6P4AjHz5" target="_blank" rel="noopener noreferrer nofollow" class="link title-address">г. Киев, пр-т Леси Украинки, 26</a></li>   
+                <li><a href="mailto:info@devstudio.com" class="link text-address">info@devstudio.com</a></li>
+                <li><a href="tel:+380961111111" class="link text-address">+38 096 111 11 11</a></li>
+                </ul>
+            </address>
+        </div>
     </footer>
 </body>
 </html>

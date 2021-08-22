@@ -18,6 +18,10 @@ ul {
   margin-left: 0;
   padding-inline-start: 0;
 }
+img {
+  display: block;
+  max-width: 100%;
+}
 .container {
   width: 1200px;
   padding: 0 15px;
@@ -30,6 +34,9 @@ ul {
   text-decoration: none;
 }
 /* header-styles */
+.header {
+  border: 1px solid #ececec;
+}
 .header-list .header-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -99,9 +106,7 @@ ul {
   color: #2196f3;
 }
 .main-headline {
-  display: flex;
-  padding: 200px 0 280px 452px;
-  width: 695px;
+  text-align: center;
   text-transform: uppercase;
   font-weight: 900;
   font-size: 44px;
@@ -111,11 +116,16 @@ ul {
 }
 .hero {
   background-color: #2f303a;
+  text-align: center;
 }
 .button {
-  width: 200px;
-  height: 50px;
+  display: inline-block;
+  border: none;
+  margin-top: 30px;
+  min-width: 200px;
   border-radius: 4px;
+  padding: 10px 32px;
+  text-align: center;
   cursor: pointer;
   font-weight: 700;
   font-size: 16px;
@@ -130,10 +140,22 @@ ul {
   background-color: #1b85db;
 }
 /* -------main-styles--------- */
+.about-benefits {
+  display: flex;
+  padding-top: 95px;
+}
+.list-advantage {
+  padding-right: 15px;
+  width: 270px;
+}
+.list-advantage:not(:last-child) {
+  margin-right: 30px;
+}
 .section-color {
   background-color: #f5f4fa;
 }
 .benefits {
+  margin-bottom: 10px;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
@@ -142,19 +164,58 @@ ul {
   color: #212121;
 }
 .benefits-text {
+  margin-bottom: 94px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 3%;
   color: #757575;
 }
 .main-title {
+  text-align: center;
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 3%;
   color: #212121;
 }
+.presentation {
+  display: flex;
+}
+.indent-reset {
+  margin-bottom: 94px;
+}
+.presentation-foto:not(:last-child) {
+  margin-right: 30px;
+}
+.main-command {
+  padding-top: 94px;
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 3%;
+  color: #212121;
+}
+.command-list {
+  display: flex;
+  text-align: center;
+  padding-bottom: 94px;
+}
+.command-info:not(:last-child) {
+  margin-right: 30px;
+}
+.command-info {
+  outline: 1px solid red;
+}
+
+.indent-reset-command {
+  background-color: #ffffff;
+  padding: 30px 0;
+}
 .title-develeper {
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
