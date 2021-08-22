@@ -2,6 +2,27 @@ body {
   font-family: "roboto", sans-serif;
   color: #e5e5e5;
 }
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding-inline-start: 0;
+}
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 .list {
   list-style: none;
 }
@@ -9,7 +30,32 @@ body {
   text-decoration: none;
 }
 /* header-styles */
+.header-list .header-item:not(:last-child) {
+  margin-right: 50px;
+}
+.header-list {
+  display: flex;
+}
+.header-right {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.header-right .header-right-contact:not(:last-child) {
+  margin-right: 50px;
+}
+.main-nav {
+  display: flex;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+}
 .header-logo {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  margin-right: 100px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -21,6 +67,9 @@ body {
   color: #2196f3;
 }
 .header-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -34,6 +83,9 @@ body {
 }
 .header-tel,
 .header-mail {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: block;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -47,6 +99,9 @@ body {
   color: #2196f3;
 }
 .main-headline {
+  display: flex;
+  padding: 200px 0 280px 452px;
+  width: 695px;
   text-transform: uppercase;
   font-weight: 900;
   font-size: 44px;
@@ -58,6 +113,9 @@ body {
   background-color: #2f303a;
 }
 .button {
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
   cursor: pointer;
   font-weight: 700;
   font-size: 16px;
