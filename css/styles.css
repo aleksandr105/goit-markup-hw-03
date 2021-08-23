@@ -164,7 +164,7 @@ img {
   color: #212121;
 }
 .benefits-text {
-  margin-bottom: 94px;
+  padding-bottom: 94px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 3%;
@@ -183,7 +183,7 @@ img {
   display: flex;
 }
 .indent-reset {
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 .presentation-foto:not(:last-child) {
   margin-right: 30px;
@@ -313,7 +313,7 @@ img {
 .list-button-menu {
   display: flex;
   margin-bottom: 50px;
-  margin-top: 94px;
+  padding-top: 94px;
   justify-content: center;
 }
 .title-prject {
