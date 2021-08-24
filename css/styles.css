@@ -281,6 +281,8 @@ img {
   letter-spacing: 3%;
   color: rgba(255, 255, 255, 0.6);
 }
+.text-address-tel:focus,
+.text-address-tel:hover,
 .text-address:hover,
 .text-address:focus {
   color: #2196f3;
